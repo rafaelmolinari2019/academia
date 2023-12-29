@@ -1,0 +1,73 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c5c1c0;
+    padding: 20px;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#sobre{
+  background-color: #0A1612;
+  color: white;
+  text-align: justify;
+}
+#servicos{
+  background-color: #1a2930;
+    color:white;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    padding: 30px;
+}
+#contato{
+  background-color: #c5c1c0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos específicos para a galeria */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+}
+#galeria{
+  text-align: center;
+}
+img{
+  width: 80%; 
+}
+nav ul{
+  text-align: right;
+}
